@@ -1,0 +1,15 @@
+{
+  "name": "lumino-dub-service",
+  "version": "1.0.0",
+  "description": "MINIX-side video dubbing processor for Lumino AI Studios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
+  }
+}
